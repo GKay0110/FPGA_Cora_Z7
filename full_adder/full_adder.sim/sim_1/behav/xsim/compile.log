@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_FPGA_Expleo/TP01__720__0/full_adder.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'full_adder'
-INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_FPGA_Expleo/TP01__720__0/testbench_full_adder.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'testbench_full_adder'
