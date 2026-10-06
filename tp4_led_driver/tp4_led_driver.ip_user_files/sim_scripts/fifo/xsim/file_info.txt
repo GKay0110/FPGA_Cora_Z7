@@ -1,2 +1,0 @@
-fifo.v,verilog,xil_defaultlib,../../../../tp4_led_driver.gen/sources_1/ip/fifo/sim/fifo.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v
