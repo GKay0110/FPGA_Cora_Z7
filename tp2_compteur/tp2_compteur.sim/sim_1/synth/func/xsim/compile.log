@@ -1,9 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp2_compteur/tp2_compteur.sim/sim_1/synth/func/xsim/tb_counter_func_synth.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_unit
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_FPGA_Expleo/TP2__720__0/tb_counter.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_counter'
-ERROR: [VRFC 10-2989] 'unsigned' is not declared [E:/Formation_FPGA_Expleo/TP2__720__0/tb_counter.vhd:79]
-ERROR: [VRFC 10-2123] 0 definitions of operator "and" match here [E:/Formation_FPGA_Expleo/TP2__720__0/tb_counter.vhd:79]
-ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [E:/Formation_FPGA_Expleo/TP2__720__0/tb_counter.vhd:7]
-INFO: [VRFC 10-3070] VHDL file 'E:/Formation_FPGA_Expleo/TP2__720__0/tb_counter.vhd' ignored due to errors

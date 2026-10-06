@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../../../../TP2__720__0/tb_counter.vhd" \
-
-# Do not sort compile order
-nosort
