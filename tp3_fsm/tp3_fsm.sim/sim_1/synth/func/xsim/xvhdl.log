@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp3_fsm/tp3_fsm.srcs/sim_1/new/tb_cycle_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_cycle_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp3_fsm/tp3_fsm.srcs/sim_1/imports/TP3__720__0/tb_tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_tp_fsm'
+ERROR: [VRFC 10-2989] 'led_r' is not declared [E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp3_fsm/tp3_fsm.srcs/sim_1/imports/TP3__720__0/tb_tp_fsm.vhd:63]
+ERROR: [VRFC 10-2123] 0 definitions of operator "and" match here [E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp3_fsm/tp3_fsm.srcs/sim_1/imports/TP3__720__0/tb_tp_fsm.vhd:63]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp3_fsm/tp3_fsm.srcs/sim_1/imports/TP3__720__0/tb_tp_fsm.vhd:7]
+INFO: [VRFC 10-3070] VHDL file 'E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp3_fsm/tp3_fsm.srcs/sim_1/imports/TP3__720__0/tb_tp_fsm.vhd' ignored due to errors

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tp3_fsm.srcs/sources_1/imports/TP3__720__0/counter_unit.vhd" \
+"../../../../tp3_fsm.srcs/sources_1/new/cycle_counter.vhd" \
+"../../../../tp3_fsm.srcs/sources_1/imports/TP3__720__0/tp_fsm.vhd" \
+"../../../../tp3_fsm.srcs/sim_1/new/tb_cycle_counter.vhd" \
+"../../../../tp3_fsm.srcs/sim_1/imports/TP3__720__0/tb_tp_fsm.vhd" \
+
+# Do not sort compile order
+nosort

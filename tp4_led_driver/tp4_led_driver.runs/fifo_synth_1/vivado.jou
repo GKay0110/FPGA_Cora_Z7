@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Aug 11 01:20:13 2026
+# Process ID: 6384
+# Current directory: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.runs/fifo_synth_1
+# Command line: vivado.exe -log fifo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo.tcl
+# Log file: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.runs/fifo_synth_1/fifo.vds
+# Journal file: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.runs/fifo_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo.tcl -notrace

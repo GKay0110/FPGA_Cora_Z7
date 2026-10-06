@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jul  2 14:55:00 2026
+# Process ID: 32288
+# Current directory: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/FPGA_CoreZ7_Project/FPGA_CoreZ7_Project.runs/synth_1
+# Command line: vivado.exe -log test_carte.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_carte.tcl
+# Log file: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/FPGA_CoreZ7_Project/FPGA_CoreZ7_Project.runs/synth_1/test_carte.vds
+# Journal file: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/FPGA_CoreZ7_Project/FPGA_CoreZ7_Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source test_carte.tcl -notrace

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1782997019">
+  <File Type="ROUTE-PWR" Name="test_carte_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="test_carte.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="test_carte_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="test_carte_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="test_carte.msk"/>
+  <File Type="ROUTE-CLK" Name="test_carte_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="test_carte.vdi"/>
+  <File Type="BG-BIT" Name="test_carte.bit"/>
+  <File Type="BG-DRC" Name="test_carte.drc"/>
+  <File Type="BG-BGN" Name="test_carte.bgn"/>
+  <File Type="BG-BIN" Name="test_carte.bin"/>
+  <File Type="BITSTR-RBT" Name="test_carte.rbt"/>
+  <File Type="BITSTR-NKY" Name="test_carte.nky"/>
+  <File Type="BITSTR-BMM" Name="test_carte_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="test_carte_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="test_carte.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="test_carte.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="test_carte.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="test_carte_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="test_carte.hwdef"/>
+  <File Type="PLACE-IO" Name="test_carte_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="test_carte_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="test_carte_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="test_carte_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="test_carte_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="test_carte_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="test_carte_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="test_carte_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="test_carte_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="test_carte_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="test_carte_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="test_carte_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="test_carte_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="test_carte_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="test_carte_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="test_carte_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="test_carte_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="test_carte_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="test_carte_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="test_carte_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="test_carte_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="test_carte_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="test_carte_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="test_carte_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="test_carte_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="test_carte_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="test_carte_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="test_carte_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="test_carte_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="test_carte.pdi"/>
+  <File Type="RCFI_FILE" Name="test_carte.rcfi"/>
+  <File Type="CFI_FILE" Name="test_carte.cfi"/>
+  <File Type="RNPI_FILE" Name="test_carte.rnpi"/>
+  <File Type="NPI_FILE" Name="test_carte.npi"/>
+  <File Type="RBD_FILE" Name="test_carte.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/test_carte.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="test_carte"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constr_test_carte.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

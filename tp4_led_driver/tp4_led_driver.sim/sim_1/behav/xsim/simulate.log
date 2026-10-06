@@ -1,0 +1,12 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: - INFO - : LED Rouge active par defaut
+Time: 85 ns  Iteration: 3  Process: /tb_led_driver/line__59  File: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.srcs/sim_1/new/tb_led_driver.v
+Note: - INFO - OK : Changement vers LED Verte reussi
+Time: 185 ns  Iteration: 3  Process: /tb_led_driver/line__59  File: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.srcs/sim_1/new/tb_led_driver.v
+Note: - INFO - OK : Filtre anti-maintien valide
+Time: 625 ns  Iteration: 0  Process: /tb_led_driver/line__59  File: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.srcs/sim_1/new/tb_led_driver.v
+Note: - INFO - OK : Changement vers LED Bleue reussi
+Time: 685 ns  Iteration: 3  Process: /tb_led_driver/line__59  File: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.srcs/sim_1/new/tb_led_driver.v
+Note: - SIMULATION TERMINEE AVEC SUCCES -
+Time: 885 ns  Iteration: 0  Process: /tb_led_driver/line__59  File: E:/Formation_FPGA_Expleo/FPGA_Core_Z7/FPGA_Cora_Z7/tp4_led_driver/tp4_led_driver.srcs/sim_1/new/tb_led_driver.v
